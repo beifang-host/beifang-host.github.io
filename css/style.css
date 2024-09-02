@@ -1,0 +1,206 @@
+html {
+    background: rgb(0,0,0);
+}
+
+body {
+    color: white;
+}
+
+header {
+    padding-bottom: 20px;
+    width: 960px;
+    margin: auto;
+    text-align: center;
+}
+
+/*
+body, html {
+    cursor: url(images/cursor.gif) 25 15, auto;
+}
+
+a {
+    cursor: url(images/cursor_a.gif) 25 15, auto;  
+}
+*/
+
+header section {
+	padding-top: 10px;
+	font-family: 'Agency FB';
+	src: url(../fonts/AGENCYR.TTF);
+}
+
+nav {
+    padding-top: 30px;
+    width: 960px;
+    margin: auto;
+    text-align: center;
+}
+
+nav a, #contact a, p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: justify;
+    margin: 40px;
+    color: white;
+    padding: .6em;
+    text-decoration: none;
+    -moz-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;    
+}
+
+nav a:hover {
+    color: #949494;
+}
+
+td {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 20px;    
+    letter-spacing: 4px;
+    text-transform: uppercase;    
+}
+
+section {
+	padding-top: 30px;
+    width: 960px;
+    margin: auto;
+}
+
+.header_images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#live .header_images {
+    width: 12%;
+}
+
+#music table {
+    width: 100%;
+}
+
+#music td {
+    width: 50%;
+}
+
+#band .header_images {
+    width: 8%;
+}
+
+#contact .header_images {
+    width: 7%;
+}
+
+#bandphoto {
+    padding-top: 30px;
+    width: 100%;
+}
+
+#live td {
+    width: 25%;
+    border: 1px solid grey;
+    text-align: center;
+}
+
+#live td img {
+    width: 10%;
+}
+
+#live {
+	text-align: center;
+}
+
+#previous_shows {
+    display: none;   
+}
+
+#previous_shows td{
+	background-color: black;
+}
+
+#aPreviousShows {
+    color: lightgrey !important;
+	font-family: 'Agency FB';
+    font-size: 20px;
+    text-decoration: none;
+	text-align: center;
+    border:1px solid lightgrey !important;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+	color: lightgrey;
+    -moz-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;    	
+}
+
+#aPreviousShows:hover {
+    color: grey !important;
+    border:1px solid grey !important;
+}
+
+#band td {
+	padding-top: 10px;
+    width: 25%;
+    text-align: center;  
+}
+
+#band td img {
+    padding-top: 0px; 
+    width: 100%;
+}
+
+section table {
+    width: 100%;
+}
+
+.socialmedia_logo {
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    max-width: 210px;
+}
+
+footer {
+	padding-top: 520px;
+    width: 960px;
+    margin: auto;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+p {
+    margin-top: 0px;
+    padding-top: 0px;
+    text-align: center;
+}
+/*
+#anneImage { 
+    background: url(images/members/anne_bw.jpg);
+}
+#anneImage:hover { 
+    background: url(images/members/anne.jpg);
+}
+*/
+.bwtocolor img {
+	-webkit-filter: grayscale(100%) !important;
+	filter: grayscale(100%) !important;
+}
+
+.bwtocolor img:hover {
+	-webkit-filter: grayscale(0) !important;
+	filter: grayscale(0) !important;
+}
