@@ -76,9 +76,13 @@ section {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 10%;
+    width: 8%;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.music_samples {
+    max-width: 300px;
 }
 
 #live .header_images {
@@ -171,6 +175,41 @@ section table {
     padding-right: 40px;
     max-width: 210px;
 }
+
+#band {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Zentriert den gesamten Inhalt */
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.bwtocolor {
+    display: flex;
+    flex-direction: column;
+}
+
+.bwtocolor tr {
+    display: flex;
+    justify-content: center; /* Zentriert die Bilder in jeder Reihe */
+}
+
+.bwtocolor td {
+    text-align: center;
+    padding: 10px;
+}
+
+.bwtocolor tr:first-child {
+    justify-content: center; /* Zentriert die erste Reihe mit 3 Bildern */
+}
+
+.bwtocolor tr:last-child {
+    justify-content: space-around; /* Verteilung der 4 Bilder in der zweiten Reihe */
+}
+
+
 
 footer {
 	padding-top: 520px;
