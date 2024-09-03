@@ -187,20 +187,4 @@ p {
     padding-top: 0px;
     text-align: center;
 }
-/*
-#anneImage { 
-    background: url(images/members/anne_bw.jpg);
-}
-#anneImage:hover { 
-    background: url(images/members/anne.jpg);
-}
-*/
-.bwtocolor img {
-	-webkit-filter: grayscale(100%) !important;
-	filter: grayscale(100%) !important;
-}
 
-.bwtocolor img:hover {
-	-webkit-filter: grayscale(0) !important;
-	filter: grayscale(0) !important;
-}
