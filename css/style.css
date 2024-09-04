@@ -4,6 +4,11 @@ html {
 
 body {
     color: white;
+    background-image: url(../images/background.jpg); /* Specify your background image */
+    background-size: cover; /* Scale the image to cover the entire background area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-attachment: fixed; /* Keep the image fixed while scrolling */
 }
 
 header {
