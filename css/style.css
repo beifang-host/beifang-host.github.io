@@ -180,6 +180,11 @@ section table {
     padding-left: 85px;
     padding-right: 85px;
     max-width: 150px;
+    transition: filter 0.2s ease; 
+}
+
+.socialmedia_logo:hover {
+    filter: brightness(0.7); /* Darken the image on hover */
 }
 
 #band {
@@ -215,11 +220,22 @@ table {
     justify-content: center; /* Verteilung der 4 Bilder in der zweiten Reihe */
 }
 
+/* Style for the mailto link */
+a.mailto-link {
+    color: lightgrey; /* Initial color */
+    transition: filter 0.5s ease; /* Smooth transition */
+    text-decoration: none; /* Optional: Remove underline */
+}
+
+a.mailto-link:hover {
+    filter: brightness(0.7); /* Darken the text on hover */
+}
+
 .downloads-container {
     display: flex;
     justify-content: center; /* Center the buttons horizontally */
     gap: 20px; /* Space between the buttons */
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 .download-button {
