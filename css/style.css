@@ -207,7 +207,7 @@ table {
 }
 
 .bwtocolor tr:last-child {
-    justify-content: space-around; /* Verteilung der 4 Bilder in der zweiten Reihe */
+    justify-content: center; /* Verteilung der 4 Bilder in der zweiten Reihe */
 }
 
 .downloads-container {
