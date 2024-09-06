@@ -76,6 +76,16 @@ section {
     padding-bottom: 5px;
 }
 
+.section-divider {
+    border: none;
+    height: 1px; /* Thickness of the line */
+    background-color: rgb(42, 42, 42); /* Color of the line */
+    margin-top: 40px; /* Spacing above and below the line */
+    margin-bottom: 40px; /* Spacing above and below the line */
+    max-width: 77%;
+    
+}
+
 .music_samples {
     max-width: 300px;
 }
@@ -234,7 +244,6 @@ a.mailto-link:hover {
 .downloads-container {
     display: flex;
     justify-content: center; /* Center the buttons horizontally */
-    gap: 20px; /* Space between the buttons */
     margin-left: 20px;
 }
 
