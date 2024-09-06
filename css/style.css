@@ -265,14 +265,18 @@ a.mailto-link:hover {
     border-color: #555;
 }
 
-
 footer {
-	padding-top: 50px;
+    padding-top: 50px;
     width: 960px;
     margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 10px;    
+    letter-spacing: 4px;
+    text-transform: uppercase;    
 }
 
-footer p {
+footer p, footer a {
     font-size: 12px;
 }
 
