@@ -3,13 +3,12 @@
 
 /* ======= BASE STYLE ======= */
 
-html { background: black; } /* Background */
+html { background: rgb(41, 41, 41); } /* Background */
 body { color: white; }      /* Schrift */
 section {                    
     width: 50%;               /* max Breite vom Inhalt */
     margin: auto;             /* Alles Zentriert */
 }
-
 
 
 /* ======= BACKGROUND SLIDESHOW STYLE ======= */

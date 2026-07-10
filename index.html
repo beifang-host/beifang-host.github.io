@@ -1,6 +1,6 @@
 <html>
+
     <head>
-        
         <title>Beifang - Ska-Punk aus Kiel</title>
         <meta name="Description" content="Ska-Punk aus Kiel!">
         <meta name="Keywords" content="Beifang, Kiel, Punk, Band, Ska, Laut, Ska-Punk">
@@ -11,12 +11,14 @@
         <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-96x96.png">
         <link rel="manifest" href="/site.webmanifest">
         <link rel="stylesheet" type="text/css" href="css/style.css"> 
-	<link rel="preload" as="image" href="images/background6.png">
-	<link rel="preload" as="image" href="images/background1.jpg">
-	<link rel="preload" as="image" href="images/background2.jpg">
-	<link rel="preload" as="image" href="images/background3.png">
-	<link rel="preload" as="image" href="images/background4.jpg">
-	<link rel="preload" as="image" href="images/background5.jpg">
+
+        <link rel="preload" as="image" href="images/background1.jpg">
+        <link rel="preload" as="image" href="images/background2.jpg">
+        <link rel="preload" as="image" href="images/background3.jpg">
+        <link rel="preload" as="image" href="images/background4.jpg">
+        <link rel="preload" as="image" href="images/background5.jpg">
+        <link rel="preload" as="image" href="images/background6.jpg">
+
     </head>
 
 <!-- === BODY === -->
@@ -349,40 +351,43 @@
         x.style.display = "block";      
 	  }
 	}	
-const images = [
-    "images/background1.jpg",
-    "images/background2.jpg",
-    "images/background3.png",
-    "images/background4.jpg",
-    "images/background5.jpg",
-    "images/background6.png"
-];
 
-images.forEach(src => {
-    const img = new Image();
-    img.src = src;
-});
+    // Slide Show background
 
-let current = 0;
+    const images = [
+        "images/background1.jpg",
+        "images/background2.jpg",
+        "images/background3.jpg",
+        "images/background4.jpg",
+        "images/background5.jpg",
+        "images/background6.jpg"
+    ];
 
-const bg1 = document.getElementById("bg1");
-const bg2 = document.getElementById("bg2");
+    images.forEach(src => {
+        const img = new Image();
+        img.src = src;
+    });
 
-bg1.style.backgroundImage = `url(${images[0]})`;
+    let current = 0;
 
-let visible = bg1;
-let hidden = bg2;
+    const bg1 = document.getElementById("bg1");
+    const bg2 = document.getElementById("bg2");
 
-setInterval(() => {
+    bg1.style.backgroundImage = `url(${images[0]})`;
 
-    current = (current + 1) % images.length;
+    let visible = bg1;
+    let hidden = bg2;
 
-    hidden.style.backgroundImage = `url(${images[current]})`;
+    setInterval(() => {
 
-    hidden.style.opacity = 1;
-    visible.style.opacity = 0;
+        current = (current + 1) % images.length;
 
-    [visible, hidden] = [hidden, visible];
+        hidden.style.backgroundImage = `url(${images[current]})`;
 
-}, 3000);
+        hidden.style.opacity = 1;
+        visible.style.opacity = 0;
+
+        [visible, hidden] = [hidden, visible];
+
+    }, 4000);
 </script></body></html>
