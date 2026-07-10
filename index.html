@@ -11,36 +11,59 @@
         <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-96x96.png">
         <link rel="manifest" href="/site.webmanifest">
         <link rel="stylesheet" type="text/css" href="css/style.css"> 
+	<link rel="preload" as="image" href="images/background6.png">
+	<link rel="preload" as="image" href="images/background1.jpg">
+	<link rel="preload" as="image" href="images/background2.jpg">
+	<link rel="preload" as="image" href="images/background3.png">
+	<link rel="preload" as="image" href="images/background4.jpg">
+	<link rel="preload" as="image" href="images/background5.jpg">
     </head>
+
+<!-- === BODY === -->
+
     <body>
+	<div id="bg1" class="background"></div>
+	<div id="bg2" class="background"></div>
+
         <header>
             <img src="images/logo.png" alt="Beifang Logo">
-
         </header>
+
         <nav>
             <a href="#music">MUSIK</a>
             <a href="#live">KONZERTE</a>
             <a href="#band">BAND</a>
             <a href="#contact">KONTAKT</a>
         </nav>
-        <section id="photo" style="margin-top: -30px;">
-            <img src="images/banner.jpg" id="bandphoto" alt="Beifang Foto">
+
+        <section id="photo">
+            <img src="images/banner.jpg" id="banner" alt="Beifang Foto">
+        </section>
+
+
+        <!-- SOCIAL MEDIA -->
+
+        <section id="socialmedia">
             <table>
                 <tbody>
                     <tr>
                         <td><a href="https://www.instagram.com/beifang_kiel/" target="_blank"><img class="socialmedia_logo" src="images/instagram_logo.png" alt="Link zu Instagram"></a></td>
                         <td><a href="https://open.spotify.com/intl-de/artist/5szzIIwqCPYO7CzmmfwIcE" target="_blank"><img id="spotify_logo" class="socialmedia_logo" src="images/spotify_logo.png" alt="Link zu Spotify"></a></td>
                         <td><a href="https://beifang.bandcamp.com" target="_blank"><img id="bandcamp_logo" class="socialmedia_logo" src="images/bandcamp_logo.png" alt="Link zu Bandcamp"></a></td>
-                        <td><a href="https://www.youtube.com/@beifang-band" target="_blank"><img id="youtube_logo" class="socialmedia_logo" src="images/youtube_logo.png" alt="Link zu Youtube"></a></td>
+                        <td><a href="https://www.youtube.com/@beifang-band" target="_blank"><img id="youtube_logo" class="socialmedia_logo" src="images/youtube_logo.png" alt="Link zu tube"></a></td>
                     </tr>
                 </tbody>
             </table>            
         </section>
 
 
+        <!-- MUSIC -->
 
-        <section id="music" style="padding-top: 80px;">
+        <section id="music">
+            <hr class="section-divider">
+            <img class="section_images" src="images/music.jpg" alt="Music"> 
             <h2 class="subtitles" style="text-align: center">MUSIK</h2>
+            
             <table>
                 <tbod>
                     <tr>
@@ -64,22 +87,25 @@
                 </tbody>
             </table>       
         </section>
-        <br><br>
+
+
+        <!-- KONZERTE -->
+
         <section id="live">
-            <img class="header_images" src="images/ticket.jpg" alt="Live"> 
+            <hr class="section-divider">
+            <img class="section_images" src="images/ticket.jpg" alt="Live"> 
             <h2 class="subtitles">KONZERTE</h2>
             <br>
-
             <table>
                 <tbody>                    
-                                            	                                        	
+                    <tr>
+                        <td>...</td>
+                        <td>tba</td>
+                        <td>...</td>
+                    </tr>               	                                        	
                 </tbody>
             </table>
-
-            
-        
             <br>
-        
             <table id="previous_shows">
                 <tbody>
                     <tr>
@@ -214,10 +240,12 @@
             <a href="#live" id="aPreviousShows" onclick="toggle()">Bisherige Konzerte</a>
         </section>
     
-        <br><br><br><br>
+
+        <!-- BAND -->
 
         <section id="band">
-            <img class="header_images" src="images/members.png" alt="Band"> 
+            <hr class="section-divider">
+            <img class="section_images" src="images/members.png" alt="Band"> 
             <h2 class="subtitles" style="text-align: center">BAND</h2>
             <table>
                 <tbody class="bwtocolor">
@@ -250,15 +278,15 @@
                             Posaune
                         </td>
                         <td>
-                            <img src="images/marley.jpg" alt="Marley - Sax"><br>
-                            Marley<br> 
-                            Saxophon
-                        </td>
-                        <td>
                             <img src="images/laurits.jpg" alt="Laurits - Trompete"><br>
                             Laurits<br> 
                             Trompete
-                        </td>                          
+                        </td> 
+                        <td>
+                            <img src="images/marley.jpg" alt="Marley - Sax"><br>
+                            Marley<br> 
+                            Saxophon
+                        </td>                         
                         <td>
                             <img src="images/lukas.jpg" alt="Lukas - Drums" onclick=""><br>
                             Lukas<br>
@@ -269,26 +297,37 @@
             </table>
         </section>
 
+
+        <!-- KONTAKT -->
+
         <section id="contact">
-            <br><br><br>
             <hr class="section-divider">
+            <img class="section_images" src="images/contact.png" alt="Band"> 
             <p>KONTAKT</p>
-            <p><a href="mailto:booking@beifang-band.de" target="_blank" class="mailto-link">moin@beifang-band.de</a></p>
+            <p><a href="mailto:booking@beifang.band" target="_blank" class="mailto-link">moin@beifang.band</a></p>
             <hr class="section-divider">
             <p>Booking & Veranstalter</p>
-            <p><a href="mailto:booking@beifang-band.de" target="_blank" class="mailto-link">booking@beifang-band.de</a></p>
+            <p><a href="mailto:booking@beifang.band" target="_blank" class="mailto-link">booking@beifang.band</a></p>
+            <p></p><p></p>
+            <p>Downloads</p>
             <div class="downloads-container">
                 <a href="assets/Beifang - Veranstalter.zip" download class="download-button">Presse Kit</a>
                 <a href="assets/TECHNICAL RIDER BEIFANG.pdf" target="_blank" class="download-button">Technik Rider</a>
             </div>
+            <hr class="section-divider">
         </section>
 
-        <br>
+<!-- === Footer === -->
 
-        <footer style="margin-top: 10px;">
+        <footer>
                 <a href="imprint.html"><p>Impressum</p></a>
                 <p>© Beifang <script>document.write(new Date().getFullYear())</script></p>
         </footer>            
+
+
+
+    
+<!-- === JavaScript ============================================================================================================== -->
 
 
 <script>
@@ -310,4 +349,40 @@
         x.style.display = "block";      
 	  }
 	}	
+const images = [
+    "images/background1.jpg",
+    "images/background2.jpg",
+    "images/background3.png",
+    "images/background4.jpg",
+    "images/background5.jpg",
+    "images/background6.png"
+];
+
+images.forEach(src => {
+    const img = new Image();
+    img.src = src;
+});
+
+let current = 0;
+
+const bg1 = document.getElementById("bg1");
+const bg2 = document.getElementById("bg2");
+
+bg1.style.backgroundImage = `url(${images[0]})`;
+
+let visible = bg1;
+let hidden = bg2;
+
+setInterval(() => {
+
+    current = (current + 1) % images.length;
+
+    hidden.style.backgroundImage = `url(${images[current]})`;
+
+    hidden.style.opacity = 1;
+    visible.style.opacity = 0;
+
+    [visible, hidden] = [hidden, visible];
+
+}, 3000);
 </script></body></html>
