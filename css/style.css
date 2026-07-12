@@ -6,7 +6,8 @@
 html { background: rgb(41, 41, 41); } /* Background */
 body { color: white; }      /* Schrift */
 section {                    
-    width: 50%;               /* max Breite vom Inhalt */
+    min-width: 1000px;
+    max-width: 50%;
     margin: auto;             /* Alles Zentriert */
 }
 
