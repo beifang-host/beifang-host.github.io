@@ -4,7 +4,7 @@
 /* ======= BASE STYLE ======= */
 
 html { background: rgb(41, 41, 41); } /* Background */
-body { color: white; }      /* Schrift */
+body { color: white; }                /* Schrift */
 section {                    
     min-width: 1000px;
     max-width: 50%;
