@@ -199,41 +199,6 @@ nav a:hover {
     margin-top: -2%;
     margin-bottom: -7%;
 }
-section table { /* Tabelle */
-    width: 100%;
-    margin-bottom: 5%;
-}
-table {
-    border-collapse: collapse;
-}
-#live td { /* Tabellen-Zelle */
-    width: 25%;
-    border: 1px solid grey;
-    text-align: center;
-}
-#aPreviousShows:hover {
-    color: grey;
-    border:1px solid grey;
-}
-
-/* Bandfotos & Namen */
-#band .section_images {
-    width: 10%;
-    margin-bottom: -9%;
-}
-#band td img {
-    padding-bottom: 10px; 
-    width: 100%;
-    border-radius: 5%;
-}
-#band td {
-	padding-top: 15px;
-	padding-bottom: 15px;
-	padding-right: 0.5%;
-    width: 25%;
-    text-align: center;  
-    font-size: 140%;
-}
 #previous_shows td{
 	background-color: black;
 }
@@ -257,6 +222,48 @@ table {
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;    	
 }
+section table { /* Tabelle */
+    width: 100%;
+    margin-bottom: 5%;
+}
+table {
+    border-collapse: collapse;
+}
+#live td { /* Tabellen-Zelle */
+    width: 25%;
+    border: 1px solid grey;
+    text-align: center;
+}
+#aPreviousShows:hover {
+    color: grey;
+    border:1px solid grey;
+}
+
+
+/* Bandfotos & Namen */
+#band .bwtocolor{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+#band .section_images {
+    width: 10%;
+    margin-bottom: -9%;
+}
+#band td img {
+    padding-bottom: 10px; 
+    width: 100%;
+    border-radius: 5%;
+}
+#band td {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 0.5%;
+    width: 25%;
+    text-align: center;  
+    font-size: 140%;
+}
+
 
 /* Kontakt, MailTo & Downloads */
 #contact .section_images {
